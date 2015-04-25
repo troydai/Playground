@@ -1,4 +1,4 @@
-﻿namespace QuickSort
+﻿namespace Sort
 {
     public class Partition : IPartition
     {

@@ -64,16 +64,20 @@
   <ItemGroup>
     <Compile Include="PartitionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuickSortTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\QuickSort\QuickSort.csproj">
+    <ProjectReference Include="..\QuickSort\Sort.csproj">
       <Project>{3cc05a3f-ed2f-434f-8bbb-b595db9f2ae0}</Project>
-      <Name>QuickSort</Name>
+      <Name>Sort</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22815.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "QuickSort\QuickSort.csproj", "{3CC05A3F-ED2F-434F-8BBB-B595DB9F2AE0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort", "QuickSort\Sort.csproj", "{3CC05A3F-ED2F-434F-8BBB-B595DB9F2AE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSortTest", "QuickSortTest\QuickSortTest.csproj", "{FCDFCB7B-FC74-4845-B28D-6283BD7B9C9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortTest", "QuickSortTest\SortTest.csproj", "{FCDFCB7B-FC74-4845-B28D-6283BD7B9C9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
