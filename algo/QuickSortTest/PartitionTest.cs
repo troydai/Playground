@@ -1,11 +1,19 @@
 ﻿using System;
 using System.Linq;
+using QuickSort;
 using Xunit;
 
-namespace QuickSort
+namespace QuickSortTest
 {
     public class PartitionFacts
     {
+        private IPartition _partition;
+
+        public PartitionFacts()
+        {
+            _partition = new Partition();
+        }
+
         [Fact]
         public void PartitionCorrect()
         {
@@ -17,8 +25,7 @@ namespace QuickSort
 
                 var values = string.Join(",", samples);
 
-                IPartition partition = new Partition();
-                int pivot = partition.Sort(samples, 0, samples.Length - 1);
+                int pivot = _partition.Sort(samples, 0, samples.Length - 1);
 
                 Assert.True(pivot >= 0);
                 Assert.True(pivot < samples.Length);

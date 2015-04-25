@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace QuickSort
+﻿namespace QuickSort
 {
     public class Partition : IPartition
     {
